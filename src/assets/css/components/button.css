@@ -1,0 +1,33 @@
+button {
+    width: 148px;
+    height: 46px;
+    border-radius: 50px;
+    border-style: none;
+    background-color: --Very-light-gray;
+    font-size: var(--FF-Lexend-Deca);
+    font-weight: var(--FW-Lexend-400);
+}
+
+#sedans-btn {
+    color: var(--Bright-orange);
+}
+
+button:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+#sedans-btn:hover {
+    background-color: var(--Bright-orange);
+    color: white;
+}
+
+#SUVs-btn:hover {
+    background-color: var(--Dark-cyan);
+    color: white;
+}
+
+#Luxtury-btn:hover {
+    background-color: var(--Very-dark-cyan);
+    color: white;
+}
